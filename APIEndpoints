@@ -1,0 +1,22 @@
+
+URL : http://localhost:8080/api/products
+{
+	
+	"product":"Shirt",
+	"brand":"Killer",
+	"color":"white",
+	"price":2210.00,
+	"unit":4
+}
+
+URL : http://localhost:8080/api/products
+Description : List all products
+
+URL : http://localhost:8080/api/products/colors/white
+Description : Search product catalogue by color
+
+URL : http://localhost:8080/api/products/prices/251
+Description : Search product catalogue by price
+
+URL : http://localhost:8080/api/products/brands/Killer/colors/white
+Description : Search product catalogue by brand and color
